@@ -1,0 +1,2600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_VBupwF1iEeyM3Pja4ukVrw">
+  <modelElement href="SnakeGameGroup3.uml#_VUmicF1iEeyM3Pja4ukVrw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_al2ZoF1iEeyM3Pja4ukVrw" sourceAnchor="156.0,0.0" targetAnchor="160.0,300.0" superClass="_am1REF1iEeyM3Pja4ukVrw" subClass="_ajdM8F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VXtg1V1iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tsfi5F1nEeyM3Pja4ukVrw" sourceY="-69" targetX="-137" targetY="373"/>
+    <bendpoints xmi:id="_Tsfi5V1nEeyM3Pja4ukVrw" sourceX="137" sourceY="-69" targetY="373"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_amTFkF1iEeyM3Pja4ukVrw" sourceAnchor="156.0,0.0" targetAnchor="160.0,300.0" superClass="_am1REF1iEeyM3Pja4ukVrw" subClass="_ak1tAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VXuu9V1iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tse70l1nEeyM3Pja4ukVrw" sourceY="-34" targetX="186" targetY="373"/>
+    <bendpoints xmi:id="_Tse7011nEeyM3Pja4ukVrw" sourceX="-186" sourceY="-34" targetY="373"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_amU6wF1iEeyM3Pja4ukVrw" source="_am1REF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZS1MF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_amnOoV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZS1Ml1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_amlZcF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_ammnkF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZS1MV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ampD0F1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_amocwF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_amnOoF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="foodImg" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYnfw11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ampD0l1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ampD0V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_amrgEF1iEeyM3Pja4ukVrw" sourceAnchor="0.0,161.0" targetAnchor="337.0,104.0" target="_auVnQF1iEeyM3Pja4ukVrw" source="_am1REF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZS1M11iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_amrgEV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZTcQF1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_amrgEl1iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPOGwF1iEeyM3Pja4ukVrw" position="-20.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_amrgE11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZS1NF1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPNfsl1iEeyM3Pja4ukVrw" position="-31.875,-57.0"/>
+      <visibility xmi:id="_amrgFF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_amrgFV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_amrgFl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="sfx" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYoG0V1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPOt0F1iEeyM3Pja4ukVrw" position="29.25,-57.00000000000023"/>
+      <visibility xmi:id="_amrgF11iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_amrgGF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aoAVwF1iEeyM3Pja4ukVrw" source="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZTcQV1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_aoy_8l1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZTcQ11iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aoyY4F1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_aoy_8F1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZTcQl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao1cMV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao1cMF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aoy_8V1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="backgroundMenu" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYot5V1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao1cM11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao1cMl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aovVkF1iEeyM3Pja4ukVrw" sourceAnchor="11.0,0.0" targetAnchor="205.0,208.0" target="_auVnQF1iEeyM3Pja4ukVrw" source="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZUDUV1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_aoznAV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZUDU11iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aoy_811iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPPU4F1iEeyM3Pja4ukVrw" position="-48.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aoy_9F1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZUDUl1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPOt0V1iEeyM3Pja4ukVrw" position="2.0,-67.0"/>
+      <visibility xmi:id="_ao2DQl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao2DQV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aoznAF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="music" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYp8AV1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPPU4V1iEeyM3Pja4ukVrw" position="41.0,1.0"/>
+      <visibility xmi:id="_ao2DRF1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_ao2DQ11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aovVkV1iEeyM3Pja4ukVrw" source="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZaxAF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_aoznBV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZaxAl1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aoznAl1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_aoznA11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZaxAV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao2qUV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao2qUF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aoznBF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="easy" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VZJrQl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao2qU11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao2qUl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aovVkl1iEeyM3Pja4ukVrw" source="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZaxA11iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_ao0OE11iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZaxBV1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ao0OEF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_ao0OEV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZaxBF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao3RYF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao2qVl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ao0OEl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="hard" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VZKSUV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao3RYl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao3RYV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aov8oF1iEeyM3Pja4ukVrw" source="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZbYEF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_ao0OF11iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZbYEl1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ao0OFF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_ao0OFV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZbYEV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao34cV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao34cF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ao0OFl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="snakeTitle" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VZKSVF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao34c11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao34cl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ao7i0F1iEeyM3Pja4ukVrw" sourceAnchor="0.0,165.0" targetAnchor="390.0,459.0" target="_a7ujAF1iEeyM3Pja4ukVrw" source="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZTcRF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_ao7i0V1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZUDUF1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ao7i0l1iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPP78F1iEeyM3Pja4ukVrw" position="-21.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ao7i011iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZTcRV1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPPU4l1iEeyM3Pja4ukVrw" position="-32.0,-57.0"/>
+      <visibility xmi:id="_ao7i1F1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao7i1V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ao7i1l1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="gm" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYpU8l1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPP78V1iEeyM3Pja4ukVrw" position="31.0,-57.0"/>
+      <visibility xmi:id="_ao7i111iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_ao7i2F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aq1AQF1iEeyM3Pja4ukVrw" source="_asoXEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZUDVF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_asiQcl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZUqYF1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ashpYF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_asiQcF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZUDVV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_askFoV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_askFoF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_asiQcV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="backgroundMenu" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYrKIV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_askFo11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_askFol1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_asX4YF1iEeyM3Pja4ukVrw" sourceAnchor="165.0,254.0" targetAnchor="165.0,0.0" target="_auVnQF1iEeyM3Pja4ukVrw" source="_asoXEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZUqYV1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_asi3gl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZUqY11iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_asiQc11iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPQjAV1iEeyM3Pja4ukVrw" position="-48.0,-52.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_asi3gF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZUqYl1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPQjAF1iEeyM3Pja4ukVrw" position="2.0,28.0"/>
+      <visibility xmi:id="_askss11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_askssl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_asi3gV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="music" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYrxMF1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPRKEF1iEeyM3Pja4ukVrw" position="-56.0,-84.0"/>
+      <visibility xmi:id="_askstV1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_askstF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_asemEF1iEeyM3Pja4ukVrw" source="_asoXEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZbYE11iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_asi3hl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZbYFV1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_asi3g11iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_asi3hF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZbYFF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_aslTwF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_askst11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_asi3hV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="newGameBtn" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VZK5YF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_aslTwl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_aslTwV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_asemEV1iEeyM3Pja4ukVrw" source="_asoXEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZb_IF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_asjekl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZb_Il1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_asi3h11iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_asjekF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZb_IV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_aslTxl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_aslTxV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_asjekV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="snakeTitle" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VZLgcF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_aslTyF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_aslTx11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_atc2cF1iEeyM3Pja4ukVrw" sourceAnchor="390.0,99.0" targetAnchor="0.0,101.0" target="_auVnQF1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZYUwV1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_auR8411iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZYUw11iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_auR84F1iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPRxIF1iEeyM3Pja4ukVrw" position="-8.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_auR84V1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZYUwl1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPRKEV1iEeyM3Pja4ukVrw" position="13.0,2.0"/>
+      <visibility xmi:id="_auSj8V1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_auSj8F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_auR84l1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="music" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY3-dV1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPRxIV1iEeyM3Pja4ukVrw" position="-76.0,2.0"/>
+      <stereotypes xmi:id="_auTLAF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY4lgV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_auSj811iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_auSj8l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_auTyEF1iEeyM3Pja4ukVrw" source="_auVnQF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZUqZF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_auUZIF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZVRcV1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_auUZIV1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_auUZIl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZVRcF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auUZI11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_auUZJF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_auUZJV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="audioInput" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYrxM11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auUZJl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_auUZJ11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_auVAMF1iEeyM3Pja4ukVrw" source="_auVnQF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZVRcl1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_auVAMV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZVRdF1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_auVAMl1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_auVAM11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZVRc11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVANF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_auVANV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_auVANl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="clip" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYsYQV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVAN11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_auVAOF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_avPmMF1iEeyM3Pja4ukVrw" sourceAnchor="160.0,0.0" targetAnchor="160.0,300.0" superClass="_am1REF1iEeyM3Pja4ukVrw" subClass="_awXnkF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VX2qw11iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tse71F1nEeyM3Pja4ukVrw" sourceY="-30" targetX="-479" targetY="373"/>
+    <bendpoints xmi:id="_Tse71V1nEeyM3Pja4ukVrw" sourceX="479" sourceY="-30" targetY="373"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ayDCkF1iEeyM3Pja4ukVrw" sourceAnchor="231.0,0.0" targetAnchor="142.0,300.0" superClass="_a1VAEF1iEeyM3Pja4ukVrw" subClass="_ao8J4F1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VXzAYF1iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tse70F1nEeyM3Pja4ukVrw" sourceY="-719" targetX="260" targetY="31"/>
+    <bendpoints xmi:id="_Tse70V1nEeyM3Pja4ukVrw" sourceX="-260" sourceY="-719" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_azOuUF1iEeyM3Pja4ukVrw" sourceAnchor="165.0,0.0" targetAnchor="142.0,300.0" superClass="_a1VAEF1iEeyM3Pja4ukVrw" subClass="_asoXEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VX01kF1iEeyM3Pja4ukVrw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_azOuUV1iEeyM3Pja4ukVrw" sourceAnchor="193.0,0.0" targetAnchor="142.0,300.0" superClass="_a1VAEF1iEeyM3Pja4ukVrw" subClass="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VYEGI11iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tsfi4l1nEeyM3Pja4ukVrw" sourceY="-425" targetX="-480" targetY="30"/>
+    <bendpoints xmi:id="_Tsfi411nEeyM3Pja4ukVrw" sourceX="480" sourceY="-424" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_azPVYF1iEeyM3Pja4ukVrw" source="_a1VAEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZV4gF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_az8gAF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZV4gl1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_az748F1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_az748V1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZV4gV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1G9oV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1G9oF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_az748l1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="referred" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYs_VF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1G9o11iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a1G9ol1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_azPVYV1iEeyM3Pja4ukVrw" source="_a1VAEF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZV4g11iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_az8gBF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZV4hV1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_az8gAV1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_az8gAl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZV4hF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1Hksl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1HksV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_az8gA11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="screenImg" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYuNcV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1HktF1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a1Hks11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_az-8QF1iEeyM3Pja4ukVrw" sourceAnchor="390.0,586.0" targetAnchor="130.0,300.0" target="_am1REF1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZaJ8V1iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tse71l1nEeyM3Pja4ukVrw" sourceX="960" targetY="345"/>
+    <stereotypes xmi:id="_a1GWlF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZaJ811iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a1GWkV1iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPSYMV1iEeyM3Pja4ukVrw" position="-46.5,-63.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_a1GWkl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZaJ8l1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPSYMF1iEeyM3Pja4ukVrw" position="59.90625,2.0"/>
+      <visibility xmi:id="_a1Pgg11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1Pggl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a1GWk11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="food" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY7o111iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPS_QF1iEeyM3Pja4ukVrw" position="-49.5,42.14285714285711"/>
+      <visibility xmi:id="_a1PghV1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a1PghF1iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a0rf0F1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZXttF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a1OSYl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZYUwF1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a1NrUF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a1OSYF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZXttV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1R8wV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1R8wF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a1OSYV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="dp" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY2wUF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1R8w11iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a1R8wl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a1FvgF1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZY71F1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a1O5cF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZZi4F1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a1OSY11iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a1OSZF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZY71V1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1Sj0V1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1Sj0F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a1OSZV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="restart" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY5Mkl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1Sj011iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a1Sj0l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a1FvgV1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZZi4V1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a1O5dF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZZi411iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a1O5cV1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a1O5cl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZZi4l1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1Sj1l1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1Sj1V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a1O5c11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="cLevel" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY5MlF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1Sj2F1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a1Sj111iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a1GWkF1iEeyM3Pja4ukVrw" sourceAnchor="193.0,876.0" targetAnchor="0.0,322.0" target="_a5tJwF1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZZi5F1iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tsfi4F1nEeyM3Pja4ukVrw" sourceY="337" targetX="-367" targetY="-1"/>
+    <stereotypes xmi:id="_a1PggV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZaJ8F1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a1O5dV1iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPVbgF1iEeyM3Pja4ukVrw" position="181.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_a1O5dl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZZi5V1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPUNYF1iEeyM3Pja4ukVrw" position="2.0,41.0"/>
+      <visibility xmi:id="_a1TK4l1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1TK4V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a1PggF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="snake" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY6asV1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPVbgV1iEeyM3Pja4ukVrw" position="-99.0,2.0"/>
+      <visibility xmi:id="_a1TK5F1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a1TK411iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a2HqQF1iEeyM3Pja4ukVrw" sourceAnchor="0.0,434.0" targetAnchor="274.0,0.0" target="_a3VLMF1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZaJ9F1iEeyM3Pja4ukVrw"/>
+    <bendpoints xmi:id="_Tsfi4V1nEeyM3Pja4ukVrw" sourceX="-306" sourceY="1" targetX="-1" targetY="-596"/>
+    <stereotypes xmi:id="_a3Q5wF1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZaJ9l1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a3QSsF1iEeyM3Pja4ukVrw" text="">
+      <visualProperties xmi:id="_bPWpoF1iEeyM3Pja4ukVrw" position="-42.99999999999994,287.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_a3QSsV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZaJ9V1iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPWCkF1iEeyM3Pja4ukVrw" position="-36.0,-57.0"/>
+      <visibility xmi:id="_a3SH4V1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3SH4F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a3QSsl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="spriteNonBuffer" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY8P411iEeyM3Pja4ukVrw"/>
+      <visualProperties xmi:id="_bPWpoV1iEeyM3Pja4ukVrw" position="2.0,-105.0"/>
+      <visibility xmi:id="_a3Su8V1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a3Su8F1iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a3MBQF1iEeyM3Pja4ukVrw" source="_a3VLMF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZWfkF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a3Rg0F1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZWfkl1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a3Q5wV1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a3Q5wl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZWfkV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3Su9F1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3Su811iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a3Q5w11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="spriteImage" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYvblF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3TWAV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a3TWAF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a4clgF1iEeyM3Pja4ukVrw" source="_a5tJwF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZWfk11iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a5nqM11iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZWflV1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a5nqMF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a5nqMV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZWflF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5qGcV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5qGcF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a5nqMl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="rightMouth" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY0UE11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5qGc11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5qGcl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a5ixsF1iEeyM3Pja4ukVrw" source="_a5tJwF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZXGoF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a5oRQl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZXGol1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a5nqNF1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a5oRQF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZXGoV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5qtgF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5qGdV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a5oRQV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="leftMouth" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY0UFV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5qtgl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5qtgV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a5jYwF1iEeyM3Pja4ukVrw" source="_a5tJwF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZXGo11iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a5oRRl1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZXGpV1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a5oRQ11iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a5oRRF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZXGpF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5qthV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5qthF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a5oRRV1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="upMouth" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY07IV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5qth11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5qthl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a5jYwV1iEeyM3Pja4ukVrw" source="_a5tJwF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZXGpl1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a5o4UV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZXtsF1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a5oRR11iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a5oRSF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZXGp11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5rUkl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5rUkV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a5o4UF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="downMouth" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY07I11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5rUlF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5rUk11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a5jYwl1iEeyM3Pja4ukVrw" source="_a5tJwF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZXtsV1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a5o4VV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZXts11iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a5o4Ul1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a5o4U11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZXtsl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5rUl11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5rUll1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a5o4VF1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="snakeBody" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY1iMV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5rUmV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5rUmF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a6t2YF1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZYUxF1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a6t2YV1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZY70F1iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a6t2Yl1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a6t2Y11iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZYUxV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a6t2ZF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a6t2ZV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a6t2Zl1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="titleImage" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY4lgl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a6t2Z11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a6t2aF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_a7t78F1iEeyM3Pja4ukVrw" source="_a7ujAF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VZY70V1iEeyM3Pja4ukVrw"/>
+    <stereotypes xmi:id="_a7t78V1iEeyM3Pja4ukVrw" name="Reference">
+      <modelElement href="SnakeGameGroup3.uml#_VZY7011iEeyM3Pja4ukVrw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_a7t78l1iEeyM3Pja4ukVrw" text=""/>
+    <sourceRole xmi:id="_a7t7811iEeyM3Pja4ukVrw" aggregationKind="NONE" name="">
+      <modelElement href="SnakeGameGroup3.uml#_VZY70l1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7t79F1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7t79V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_a7t79l1iEeyM3Pja4ukVrw" aggregationKind="NONE" name="background" navigable="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY5MkF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7t7911iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7t7-F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_asoXEF1iEeyM3Pja4ukVrw" name="MainMenu" associationsOut="_aq1AQF1iEeyM3Pja4ukVrw _asX4YF1iEeyM3Pja4ukVrw _asemEF1iEeyM3Pja4ukVrw _asemEV1iEeyM3Pja4ukVrw" generalizations="_azOuUF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VVuj011iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_asoXEV1iEeyM3Pja4ukVrw" position="1250.0,391.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_asoXEl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_asoXE11iEeyM3Pja4ukVrw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYqjEF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_asoXFF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_asoXFV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_asoXFl1iEeyM3Pja4ukVrw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_asoXF11iEeyM3Pja4ukVrw" defaultValue="&quot;src/assets/&quot;" name="DEFAULT_LOCATION" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYqjEl1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXGF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYrKIF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXGV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_asoXGl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_asoXG11iEeyM3Pja4ukVrw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_asoXHF1iEeyM3Pja4ukVrw" name="backgroundMenu">
+      <modelElement href="SnakeGameGroup3.uml#_VYrKIV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXHV1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VYrKIl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_asoXHl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYrKI11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXH11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_asoXIF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_asoXIV1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_asoXIl1iEeyM3Pja4ukVrw" defaultValue="new Music()" name="music">
+      <modelElement href="SnakeGameGroup3.uml#_VYrxMF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXI11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYrxMl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXJF1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_asoXJV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_asoXJl1iEeyM3Pja4ukVrw" name="Music">
+        <modelElement href="SnakeGameGroup3.uml#_VVxnIF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_asoXJ11iEeyM3Pja4ukVrw" name="newGameBtn">
+      <modelElement href="SnakeGameGroup3.uml#_VZK5YF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXKF1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZK5YV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_asoXKV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZK5Yl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXKl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_asoXK11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_asoXLF1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_asoXLV1iEeyM3Pja4ukVrw" name="snakeTitle">
+      <modelElement href="SnakeGameGroup3.uml#_VZLgcF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXLl1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZLgcV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_asoXL11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZLgcl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXMF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_asoXMV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_asoXMl1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_asoXM11iEeyM3Pja4ukVrw" name="loadImg">
+      <modelElement href="SnakeGameGroup3.uml#_VVvK4F1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_asoXNF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_asoXNV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_asoXNl1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYRhgl1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_asoXN11iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_asoXOF1iEeyM3Pja4ukVrw" name="filename">
+        <modelElement href="SnakeGameGroup3.uml#_VVvK4V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_asoXOV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_asoXOl1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_asoXO11iEeyM3Pja4ukVrw" name="stateChange">
+      <modelElement href="SnakeGameGroup3.uml#_VVvx8F1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXPF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VVvx8l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_asoXPV1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VVwZAF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXPl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_asoXP11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_asoXQF1iEeyM3Pja4ukVrw" name="state">
+        <modelElement href="SnakeGameGroup3.uml#_VVvx8V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_asoXQV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_asoXQl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_asoXQ11iEeyM3Pja4ukVrw" name="MainMenu">
+      <modelElement href="SnakeGameGroup3.uml#_VYQ6cF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_asoXRF1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_asoXRV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_asoXRl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_asoXR11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYRhgV1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_asoXSF1iEeyM3Pja4ukVrw" name="MainMenu">
+          <modelElement href="SnakeGameGroup3.uml#_VVuj011iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_asoXSV1iEeyM3Pja4ukVrw" name="referred">
+        <modelElement href="SnakeGameGroup3.uml#_VYQ6cV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_asoXSl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_asoXS11iEeyM3Pja4ukVrw" name="JFrame">
+          <modelElement href="SnakeGameGroup3.uml#_VXxyRF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_asoXTF1iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYRhg11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_asoXTV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYRhhV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_asoXTl1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYSIkF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_asoXT11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_asoXUF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_asoXUV1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYRhhF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_asoXUl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_asoXU11iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_a1VAEF1iEeyM3Pja4ukVrw" name="Screen" abstractClass="true" associationsOut="_azPVYF1iEeyM3Pja4ukVrw _azPVYV1iEeyM3Pja4ukVrw" subclassedBy="_ayDCkF1iEeyM3Pja4ukVrw _azOuUF1iEeyM3Pja4ukVrw _azOuUV1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VV14kF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_a1VAEV1iEeyM3Pja4ukVrw" position="1273.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_a1VAEl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_a1VAE11iEeyM3Pja4ukVrw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYs_Ul1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1VAFF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a1VAFV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a1VAFl1iEeyM3Pja4ukVrw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a1VAF11iEeyM3Pja4ukVrw" name="referred">
+      <modelElement href="SnakeGameGroup3.uml#_VYs_VF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a1VAGF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYtmYF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a1VAGV1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a1VAGl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a1VAG11iEeyM3Pja4ukVrw" name="JFrame">
+        <modelElement href="SnakeGameGroup3.uml#_VXxyRF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a1VAHF1iEeyM3Pja4ukVrw" defaultValue="905" name="PANEL_WIDTH" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYtmYV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a1VAHV1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VYtmY11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a1VAHl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYuNcF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a1VAH11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VAIF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a1VAIV1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a1VAIl1iEeyM3Pja4ukVrw" name="screenImg">
+      <modelElement href="SnakeGameGroup3.uml#_VYuNcV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a1VAI11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYuNcl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a1VAJF1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a1VAJV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a1VAJl1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a1VAJ11iEeyM3Pja4ukVrw" defaultValue="670" name="PANEL_HEIGHT">
+      <modelElement href="SnakeGameGroup3.uml#_VZMHgF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a1VAKF1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZMHgV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a1VAKV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZMHgl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a1VAKl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VAK11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a1VALF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_a1VALV1iEeyM3Pja4ukVrw" abstractOperation="true" name="stateChange">
+      <modelElement href="SnakeGameGroup3.uml#_VV2foF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1VALl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VAL11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a1VAMF1iEeyM3Pja4ukVrw" name="state">
+        <modelElement href="SnakeGameGroup3.uml#_VV2foV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a1VAMV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a1VAMl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a1VAM11iEeyM3Pja4ukVrw" name="getImage">
+      <modelElement href="SnakeGameGroup3.uml#_VV3GsF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1VANF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VANV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a1VANl1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYWaAl1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a1VAN11iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a1VAOF1iEeyM3Pja4ukVrw" name="Screen">
+      <modelElement href="SnakeGameGroup3.uml#_VYVL4F1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_a1VAOV1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_a1VAOl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VAO11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a1VAPF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYVL5F1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a1VAPV1iEeyM3Pja4ukVrw" name="Screen">
+          <modelElement href="SnakeGameGroup3.uml#_VV14kF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a1VAPl1iEeyM3Pja4ukVrw" name="referred">
+        <modelElement href="SnakeGameGroup3.uml#_VYVL4V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a1VAP11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a1VAQF1iEeyM3Pja4ukVrw" name="JFrame">
+          <modelElement href="SnakeGameGroup3.uml#_VXxyRF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a1VAQV1iEeyM3Pja4ukVrw" abstractOperation="true" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYVy8F1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1VAQl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VAQ11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a1VARF1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYVy8V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a1VARV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a1VARl1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a1VAR11iEeyM3Pja4ukVrw" name="paintComponent">
+      <modelElement href="SnakeGameGroup3.uml#_VYVy8l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a1VASF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYVy9F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a1VASV1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYWaAF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a1VASl1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a1VAS11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a1VATF1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYVy811iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a1VATV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a1VATl1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a1VAT11iEeyM3Pja4ukVrw" name="setImg">
+      <modelElement href="SnakeGameGroup3.uml#_VYWaA11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a1VAUF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a1VAUV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a1VAUl1iEeyM3Pja4ukVrw" name="screenImg">
+        <modelElement href="SnakeGameGroup3.uml#_VYWaBF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a1VAU11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a1VAVF1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_apuNAF1iEeyM3Pja4ukVrw" name="Main">
+    <modelElement href="SnakeGameGroup3.uml#_VVt8wF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_apuNAV1iEeyM3Pja4ukVrw" position="1021.0,141.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_apuNAl1iEeyM3Pja4ukVrw" label="+"/>
+    <operations xmi:id="_apuNA11iEeyM3Pja4ukVrw" name="main" staticOperation="true">
+      <modelElement href="SnakeGameGroup3.uml#_VVuj0F1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_apuNBF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_apuNBV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_apuNBl1iEeyM3Pja4ukVrw" name="args">
+        <modelElement href="SnakeGameGroup3.uml#_VVuj0V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_apuNB11iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_apuNCF1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_auVnQF1iEeyM3Pja4ukVrw" name="Music" associationsIn="_amrgEF1iEeyM3Pja4ukVrw _aovVkF1iEeyM3Pja4ukVrw _asX4YF1iEeyM3Pja4ukVrw _atc2cF1iEeyM3Pja4ukVrw" associationsOut="_auTyEF1iEeyM3Pja4ukVrw _auVAMF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VVxnIF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_auVnQV1iEeyM3Pja4ukVrw" position="1250.0,784.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_auVnQl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_auVnQ11iEeyM3Pja4ukVrw" name="audioInput">
+      <modelElement href="SnakeGameGroup3.uml#_VYrxM11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_auVnRF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYsYQF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_auVnRV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_auVnRl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_auVnR11iEeyM3Pja4ukVrw" name="AudioInputStream">
+        <modelElement href="SnakeGameGroup3.uml#_VYSvoF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_auVnSF1iEeyM3Pja4ukVrw" name="clip">
+      <modelElement href="SnakeGameGroup3.uml#_VYsYQV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_auVnSV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYsYQl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_auVnSl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_auVnS11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_auVnTF1iEeyM3Pja4ukVrw" name="Clip">
+        <modelElement href="SnakeGameGroup3.uml#_VYTWsF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_auVnTV1iEeyM3Pja4ukVrw" name="playbgMusic">
+      <modelElement href="SnakeGameGroup3.uml#_VVyOMF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVnTl1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_auVnT11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_auVnUF1iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VVyOMV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_auVnUV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_auVnUl1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_auVnU11iEeyM3Pja4ukVrw" name="playSFX">
+      <modelElement href="SnakeGameGroup3.uml#_VVyOMl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVnVF1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_auVnVV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_auVnVl1iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VVyOM11iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_auVnV11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_auVnWF1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_auVnWV1iEeyM3Pja4ukVrw" name="stopAll">
+      <modelElement href="SnakeGameGroup3.uml#_VVyONF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVnWl1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_auVnW11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_auVnXF1iEeyM3Pja4ukVrw" name="pauseMusic">
+      <modelElement href="SnakeGameGroup3.uml#_VVyONV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVnXV1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_auVnXl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_auVnX11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VVyONl1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_auVnYF1iEeyM3Pja4ukVrw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_auVnYV1iEeyM3Pja4ukVrw" name="playPausedMusic">
+      <modelElement href="SnakeGameGroup3.uml#_VVy1QF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_auVnYl1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_auVnY11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_auVnZF1iEeyM3Pja4ukVrw" name="time">
+        <modelElement href="SnakeGameGroup3.uml#_VVy1QV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_auVnZV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_auVnZl1iEeyM3Pja4ukVrw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_auVnZ11iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VVy1Ql1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_auVnaF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_auVnaV1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ao8J4F1iEeyM3Pja4ukVrw" name="LevelSelect" associationsOut="_aoAVwF1iEeyM3Pja4ukVrw _aovVkF1iEeyM3Pja4ukVrw _aovVkV1iEeyM3Pja4ukVrw _aovVkl1iEeyM3Pja4ukVrw _aov8oF1iEeyM3Pja4ukVrw _ao7i0F1iEeyM3Pja4ukVrw" generalizations="_ayDCkF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VVqSYF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_ao8J4V1iEeyM3Pja4ukVrw" position="1444.0,1080.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ao8J4l1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_ao8J411iEeyM3Pja4ukVrw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYot4F1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao8J5F1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8J5V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8J5l1iEeyM3Pja4ukVrw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8J511iEeyM3Pja4ukVrw" defaultValue="&quot;src/assets/&quot;" name="DEFAULT_LOCATION" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VYot4l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8J6F1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYot5F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8J6V1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8J6l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8J611iEeyM3Pja4ukVrw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8J7F1iEeyM3Pja4ukVrw" name="backgroundMenu">
+      <modelElement href="SnakeGameGroup3.uml#_VYot5V1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8J7V1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VYpU8F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ao8J7l1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYpU8V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8J711iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8J8F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8J8V1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8J8l1iEeyM3Pja4ukVrw" name="gm">
+      <modelElement href="SnakeGameGroup3.uml#_VYpU8l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8J811iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYp8AF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8J9F1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_ao8J9V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8J9l1iEeyM3Pja4ukVrw" name="Gameplay">
+        <modelElement href="SnakeGameGroup3.uml#_VWD7AF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8J911iEeyM3Pja4ukVrw" defaultValue="new Music()" name="music">
+      <modelElement href="SnakeGameGroup3.uml#_VYp8AV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8J-F1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYp8A11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8J-V1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_ao8J-l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8J-11iEeyM3Pja4ukVrw" name="Music">
+        <modelElement href="SnakeGameGroup3.uml#_VVxnIF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8J_F1iEeyM3Pja4ukVrw" name="easy">
+      <modelElement href="SnakeGameGroup3.uml#_VZJrQl1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8J_V1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZJrQ11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ao8J_l1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZKSUF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8J_11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8KAF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8KAV1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8KAl1iEeyM3Pja4ukVrw" name="hard">
+      <modelElement href="SnakeGameGroup3.uml#_VZKSUV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8KA11iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZKSUl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ao8KBF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZKSU11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8KBV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8KBl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8KB11iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ao8KCF1iEeyM3Pja4ukVrw" name="snakeTitle">
+      <modelElement href="SnakeGameGroup3.uml#_VZKSVF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8KCV1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZKSVV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ao8KCl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZKSVl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8KC11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8KDF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ao8KDV1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ao8KDl1iEeyM3Pja4ukVrw" name="loadImg">
+      <modelElement href="SnakeGameGroup3.uml#_VVq5cF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ao8KD11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ao8KEF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ao8KEV1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYPsVF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_ao8KEl1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ao8w8F1iEeyM3Pja4ukVrw" name="filename">
+        <modelElement href="SnakeGameGroup3.uml#_VVrggF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ao8w8V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ao8w8l1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ao8w811iEeyM3Pja4ukVrw" name="stateChange">
+      <modelElement href="SnakeGameGroup3.uml#_VVrggV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8w9F1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VVrgg11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ao8w9V1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VVsHkF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8w9l1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao8w911iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ao8w-F1iEeyM3Pja4ukVrw" name="state">
+        <modelElement href="SnakeGameGroup3.uml#_VVrggl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ao8w-V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ao8w-l1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ao8w-11iEeyM3Pja4ukVrw" name="LevelSelect">
+      <modelElement href="SnakeGameGroup3.uml#_VYPFQF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_ao8w_F1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_ao8w_V1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao8w_l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ao8w_11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYPsU11iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_ao8xAF1iEeyM3Pja4ukVrw" name="LevelSelect">
+          <modelElement href="SnakeGameGroup3.uml#_VVqSYF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ao8xAV1iEeyM3Pja4ukVrw" name="referred">
+        <modelElement href="SnakeGameGroup3.uml#_VYPFQV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ao8xAl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ao8xA11iEeyM3Pja4ukVrw" name="JFrame">
+          <modelElement href="SnakeGameGroup3.uml#_VXxyRF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ao8xBF1iEeyM3Pja4ukVrw" name="musicTime">
+        <modelElement href="SnakeGameGroup3.uml#_VYPsUF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ao8xBV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ao8xBl1iEeyM3Pja4ukVrw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ao8xB11iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYPsVV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ao8xCF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYQTYF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ao8xCV1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYQTYV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ao8xCl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ao8xC11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ao8xDF1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYPsVl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ao8xDV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ao8xDl1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ak1tAF1iEeyM3Pja4ukVrw" name="Bomb" generalizations="_amTFkF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VVky0F1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_ak1tAV1iEeyM3Pja4ukVrw" position="2152.0,1434.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ak1tAl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_ak1tA11iEeyM3Pja4ukVrw" defaultValue="&quot;src/assets/bomb.png&quot;" name="loc">
+      <modelElement href="SnakeGameGroup3.uml#_VYlqkF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ak1tBF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYmRoV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ak1tBV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_ak1tBl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_ak1tB11iEeyM3Pja4ukVrw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ak1tCF1iEeyM3Pja4ukVrw" name="Bomb">
+      <modelElement href="SnakeGameGroup3.uml#_VVlZ4F1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_ak1tCV1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_ak1tCl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ak1tC11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ak1tDF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VVlZ5V1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_ak1tDV1iEeyM3Pja4ukVrw" name="Bomb">
+          <modelElement href="SnakeGameGroup3.uml#_VVky0F1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ak1tDl1iEeyM3Pja4ukVrw" name="foodX">
+        <modelElement href="SnakeGameGroup3.uml#_VVlZ4V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ak1tD11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ak1tEF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ak1tEV1iEeyM3Pja4ukVrw" name="foodY">
+        <modelElement href="SnakeGameGroup3.uml#_VVlZ4l1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ak1tEl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ak1tE11iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ak1tFF1iEeyM3Pja4ukVrw" name="getImage">
+      <modelElement href="SnakeGameGroup3.uml#_VVlZ5l1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ak1tFV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ak1tFl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ak1tF11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYMpAF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_ak1tGF1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ak1tGV1iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VVlZ511iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ak1tGl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ak1tG11iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ak1tHF1iEeyM3Pja4ukVrw" name="giveCond">
+      <modelElement href="SnakeGameGroup3.uml#_VXuu8F1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ak1tHV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VXuu8l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ak1tHl1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VXuu811iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ak1tH11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ak1tIF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ak1tIV1iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VXuu8V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ak1tIl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ak1tI11iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ak1tJF1iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYMpAV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ak1tJV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYNQEF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ak1tJl1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYNQEV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ak1tJ11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ak1tKF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ak1tKV1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYMpAl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ak1tKl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ak1tK11iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_awXnkF1iEeyM3Pja4ukVrw" name="Rotten" generalizations="_avPmMF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VVzcUF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_awXnkV1iEeyM3Pja4ukVrw" position="1483.0,1430.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_awXnkl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_awXnk11iEeyM3Pja4ukVrw" defaultValue="&quot;src/assets/rottenfood.png&quot;" name="loc">
+      <modelElement href="SnakeGameGroup3.uml#_VYsYQ11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_awXnlF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYs_UV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_awXnlV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_awXnll1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_awXnl11iEeyM3Pja4ukVrw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_awXnmF1iEeyM3Pja4ukVrw" name="Rotten">
+      <modelElement href="SnakeGameGroup3.uml#_VV0DYF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_awXnmV1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_awXnml1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_awXnm11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_awXnnF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VV0DZV1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_awXnnV1iEeyM3Pja4ukVrw" name="Rotten">
+          <modelElement href="SnakeGameGroup3.uml#_VVzcUF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_awXnnl1iEeyM3Pja4ukVrw" name="foodX">
+        <modelElement href="SnakeGameGroup3.uml#_VV0DYV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_awXnn11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_awXnoF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_awXnoV1iEeyM3Pja4ukVrw" name="foodY">
+        <modelElement href="SnakeGameGroup3.uml#_VV0DYl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_awXnol1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_awXno11iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_awXnpF1iEeyM3Pja4ukVrw" name="getImage">
+      <modelElement href="SnakeGameGroup3.uml#_VV0qcF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_awXnpV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_awXnpl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_awXnp11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYT9wF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_awXnqF1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_awXnqV1iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VV0qcV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_awXnql1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_awXnq11iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_awXnrF1iEeyM3Pja4ukVrw" name="giveCond">
+      <modelElement href="SnakeGameGroup3.uml#_VX2DsF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_awXnrV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VX2qwF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_awXnrl1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VX2qwV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_awXnr11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_awXnsF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_awXnsV1iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VX2DsV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_awXnsl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_awXns11iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_awXntF1iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYT9wV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_awXntV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYUk0V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_awYOoF1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYUk0l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_awYOoV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_awYOol1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_awYOo11iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYUk0F1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_awYOpF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_awYOpV1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_a7ujAF1iEeyM3Pja4ukVrw" name="Gameplay" associationsIn="_ao7i0F1iEeyM3Pja4ukVrw" associationsOut="_atc2cF1iEeyM3Pja4ukVrw _az-8QF1iEeyM3Pja4ukVrw _a0rf0F1iEeyM3Pja4ukVrw _a1FvgF1iEeyM3Pja4ukVrw _a1FvgV1iEeyM3Pja4ukVrw _a1GWkF1iEeyM3Pja4ukVrw _a2HqQF1iEeyM3Pja4ukVrw _a6t2YF1iEeyM3Pja4ukVrw _a7t78F1iEeyM3Pja4ukVrw" generalizations="_azOuUV1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VWD7AF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_a7ujAV1iEeyM3Pja4ukVrw" position="742.0,786.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_a7ujAl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_a7ujA11iEeyM3Pja4ukVrw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY2JQF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7ujBF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujBV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujBl1iEeyM3Pja4ukVrw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujB11iEeyM3Pja4ukVrw" defaultValue="new JFrame()" name="dp">
+      <modelElement href="SnakeGameGroup3.uml#_VY2wUF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujCF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY2wUl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujCV1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a7ujCl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujC11iEeyM3Pja4ukVrw" name="JFrame">
+        <modelElement href="SnakeGameGroup3.uml#_VXxyRF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujDF1iEeyM3Pja4ukVrw" defaultValue="&quot;src/assets/&quot;" name="DEFAULT_LOCATION" staticAttribute="true">
+      <modelElement href="SnakeGameGroup3.uml#_VY2wU11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujDV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY2wVV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujDl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujD11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujEF1iEeyM3Pja4ukVrw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujEV1iEeyM3Pja4ukVrw" defaultValue="{ 25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475,&#xA;&#x9;&#x9;&#x9;500, 525, 550, 575, 600, 625, 650, 675, 700, 725, 750, 775, 800, 825, 850 }" name="foodX">
+      <modelElement href="SnakeGameGroup3.uml#_VY3XYF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujEl1iEeyM3Pja4ukVrw" name="Array">
+        <modelElement href="SnakeGameGroup3.uml#_VY3XYl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7ujE11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY3XZF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujFF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujFV1iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_a7ujFl1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujF11iEeyM3Pja4ukVrw" defaultValue="{ 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500,&#xA;&#x9;&#x9;&#x9;525, 550, 575, 600, 625 }" name="foodY">
+      <modelElement href="SnakeGameGroup3.uml#_VY3-cF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujGF1iEeyM3Pja4ukVrw" name="Array">
+        <modelElement href="SnakeGameGroup3.uml#_VY3-cl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7ujGV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY3-dF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujGl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujG11iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_a7ujHF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujHV1iEeyM3Pja4ukVrw" defaultValue="new Music()" name="music">
+      <modelElement href="SnakeGameGroup3.uml#_VY3-dV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7ujHl1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a7ujH11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujIF1iEeyM3Pja4ukVrw" name="Music">
+        <modelElement href="SnakeGameGroup3.uml#_VVxnIF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujIV1iEeyM3Pja4ukVrw" name="titleImage">
+      <modelElement href="SnakeGameGroup3.uml#_VY4lgl1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujIl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY4lg11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujI11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujJF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujJV1iEeyM3Pja4ukVrw" name="ImageIcon">
+        <modelElement href="SnakeGameGroup3.uml#_VYBp411iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujJl1iEeyM3Pja4ukVrw" name="background">
+      <modelElement href="SnakeGameGroup3.uml#_VY5MkF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujJ11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY5MkV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujKF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujKV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujKl1iEeyM3Pja4ukVrw" name="ImageIcon">
+        <modelElement href="SnakeGameGroup3.uml#_VYBp411iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujK11iEeyM3Pja4ukVrw" name="restart">
+      <modelElement href="SnakeGameGroup3.uml#_VY5Mkl1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujLF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY5Mk11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujLV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujLl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujL11iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujMF1iEeyM3Pja4ukVrw" name="cLevel">
+      <modelElement href="SnakeGameGroup3.uml#_VY5MlF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujMV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY5zoF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujMl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujM11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujNF1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujNV1iEeyM3Pja4ukVrw" defaultValue="false" name="isPaused">
+      <modelElement href="SnakeGameGroup3.uml#_VY5zoV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujNl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY5zo11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujN11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujOF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujOV1iEeyM3Pja4ukVrw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujOl1iEeyM3Pja4ukVrw" defaultValue="2" name="difficulty">
+      <modelElement href="SnakeGameGroup3.uml#_VY5zpF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujO11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY6asF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujPF1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a7ujPV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujPl1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujP11iEeyM3Pja4ukVrw" defaultValue="new Snake(1)" name="snake">
+      <modelElement href="SnakeGameGroup3.uml#_VY6asV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujQF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY6as11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujQV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujQl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujQ11iEeyM3Pja4ukVrw" name="Snake">
+        <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujRF1iEeyM3Pja4ukVrw" defaultValue="0" name="pauseTime">
+      <modelElement href="SnakeGameGroup3.uml#_VY6atF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujRV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY7BwF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujRl1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a7ujR11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujSF1iEeyM3Pja4ukVrw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujSV1iEeyM3Pja4ukVrw" defaultValue="851" name="width">
+      <modelElement href="SnakeGameGroup3.uml#_VY7BwV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujSl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY7Bw11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujS11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujTF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujTV1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujTl1iEeyM3Pja4ukVrw" defaultValue="55" name="height">
+      <modelElement href="SnakeGameGroup3.uml#_VY7BxF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujT11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY7o0F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujUF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujUV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujUl1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujU11iEeyM3Pja4ukVrw" defaultValue="24" name="x">
+      <modelElement href="SnakeGameGroup3.uml#_VY7o0V1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujVF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY7o011iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujVV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujVl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujV11iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujWF1iEeyM3Pja4ukVrw" defaultValue="10" name="y">
+      <modelElement href="SnakeGameGroup3.uml#_VY7o1F1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujWV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY7o1l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujWl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujW11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a7ujXF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujXV1iEeyM3Pja4ukVrw" defaultValue="new ArrayList&lt;>()" name="food">
+      <modelElement href="SnakeGameGroup3.uml#_VY7o111iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujXl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY8P4l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujX11iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a7ujYF1iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_a7ujYV1iEeyM3Pja4ukVrw" name="Food">
+        <modelElement href="SnakeGameGroup3.uml#_VVmoAF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a7ujYl1iEeyM3Pja4ukVrw" defaultValue="new ArrayList&lt;>()" name="spriteNonBuffer">
+      <modelElement href="SnakeGameGroup3.uml#_VY8P411iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7ujY11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY8P5l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7ujZF1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a7ujZV1iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_a7ujZl1iEeyM3Pja4ukVrw" name="SpriteNonBuffered">
+        <modelElement href="SnakeGameGroup3.uml#_VV474F1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_a7ujZ11iEeyM3Pja4ukVrw" name="loadImg">
+      <modelElement href="SnakeGameGroup3.uml#_VWFwMF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7ujaF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7ujaV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a7ujal1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYeV0l1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a7vKEF1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a7vKEV1iEeyM3Pja4ukVrw" name="filename">
+        <modelElement href="SnakeGameGroup3.uml#_VWFwMV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKEl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKE11iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKFF1iEeyM3Pja4ukVrw" name="spriteThread">
+      <modelElement href="SnakeGameGroup3.uml#_VWGXQF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKFV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKFl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKF11iEeyM3Pja4ukVrw" name="startThread">
+      <modelElement href="SnakeGameGroup3.uml#_VWGXQV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKGF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKGV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKGl1iEeyM3Pja4ukVrw" name="gameOver">
+      <modelElement href="SnakeGameGroup3.uml#_VWGXQl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKG11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a7vKHF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKHV1iEeyM3Pja4ukVrw" name="foodGen">
+      <modelElement href="SnakeGameGroup3.uml#_VWGXQ11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKHl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKH11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKIF1iEeyM3Pja4ukVrw" name="nonBufferGen">
+      <modelElement href="SnakeGameGroup3.uml#_VWG-UF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKIV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKIl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKI11iEeyM3Pja4ukVrw" name="appleGen">
+      <modelElement href="SnakeGameGroup3.uml#_VWG-UV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKJF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKJV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a7vKJl1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYEGIF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a7vKJ11iEeyM3Pja4ukVrw" name="Apple">
+          <modelElement href="SnakeGameGroup3.uml#_VViWkF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a7vKKF1iEeyM3Pja4ukVrw" name="rottenGen">
+      <modelElement href="SnakeGameGroup3.uml#_VWG-Ul1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKKV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKKl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a7vKK11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYEGIV1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a7vKLF1iEeyM3Pja4ukVrw" name="Rotten">
+          <modelElement href="SnakeGameGroup3.uml#_VVzcUF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a7vKLV1iEeyM3Pja4ukVrw" name="bombGen">
+      <modelElement href="SnakeGameGroup3.uml#_VWHlYF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKLl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKL11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a7vKMF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYEGIl1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a7vKMV1iEeyM3Pja4ukVrw" name="Bomb">
+          <modelElement href="SnakeGameGroup3.uml#_VVky0F1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a7vKMl1iEeyM3Pja4ukVrw" name="checkBoard">
+      <modelElement href="SnakeGameGroup3.uml#_VWHlYV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKM11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKNF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKNV1iEeyM3Pja4ukVrw" name="setMusic">
+      <modelElement href="SnakeGameGroup3.uml#_VWHlYl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKNl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKN11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKOF1iEeyM3Pja4ukVrw" name="restartGame">
+      <modelElement href="SnakeGameGroup3.uml#_VWHlY11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKOV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKOl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a7vKO11iEeyM3Pja4ukVrw" name="setDiff">
+      <modelElement href="SnakeGameGroup3.uml#_VWHlZF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a7vKPF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKPV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKPl1iEeyM3Pja4ukVrw" name="i">
+        <modelElement href="SnakeGameGroup3.uml#_VWHlZV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKP11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKQF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKQV1iEeyM3Pja4ukVrw" name="stateChange">
+      <modelElement href="SnakeGameGroup3.uml#_VWIMcF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7vKQl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VWIMcl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7vKQ11iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VWIMc11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7vKRF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKRV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKRl1iEeyM3Pja4ukVrw" name="state">
+        <modelElement href="SnakeGameGroup3.uml#_VWIMcV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKR11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKSF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKSV1iEeyM3Pja4ukVrw" name="Gameplay">
+      <modelElement href="SnakeGameGroup3.uml#_VYdHsF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_a7vKSl1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_a7vKS11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKTF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a7vKTV1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYduw11iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a7vKTl1iEeyM3Pja4ukVrw" name="Gameplay">
+          <modelElement href="SnakeGameGroup3.uml#_VWD7AF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a7vKT11iEeyM3Pja4ukVrw" name="referred">
+        <modelElement href="SnakeGameGroup3.uml#_VYdHsV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKUF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKUV1iEeyM3Pja4ukVrw" name="JFrame">
+          <modelElement href="SnakeGameGroup3.uml#_VXxyRF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a7vKUl1iEeyM3Pja4ukVrw" name="diff">
+        <modelElement href="SnakeGameGroup3.uml#_VYduwF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKU11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKVF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKVV1iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYduxF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7vKVl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYduxl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7vKV11iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYeV0F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7vKWF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKWV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKWl1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYduxV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKW11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKXF1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKXV1iEeyM3Pja4ukVrw" name="keyPressed">
+      <modelElement href="SnakeGameGroup3.uml#_VYeV011iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7vKXl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYe84F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7vKX11iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYe84V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7vKYF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKYV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKYl1iEeyM3Pja4ukVrw" name="e">
+        <modelElement href="SnakeGameGroup3.uml#_VYeV1F1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKY11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKZF1iEeyM3Pja4ukVrw" name="KeyEvent">
+          <modelElement href="SnakeGameGroup3.uml#_VYAbw11iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKZV1iEeyM3Pja4ukVrw" name="keyReleased">
+      <modelElement href="SnakeGameGroup3.uml#_VYe8411iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7vKZl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYfj8F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7vKZ11iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYfj8V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7vKaF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKaV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKal1iEeyM3Pja4ukVrw" name="e">
+        <modelElement href="SnakeGameGroup3.uml#_VYe85F1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKa11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKbF1iEeyM3Pja4ukVrw" name="KeyEvent">
+          <modelElement href="SnakeGameGroup3.uml#_VYAbw11iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKbV1iEeyM3Pja4ukVrw" name="keyTyped">
+      <modelElement href="SnakeGameGroup3.uml#_VYfj811iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7vKbl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYgLAF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7vKb11iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYgLAV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7vKcF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKcV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKcl1iEeyM3Pja4ukVrw" name="e">
+        <modelElement href="SnakeGameGroup3.uml#_VYfj9F1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKc11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKdF1iEeyM3Pja4ukVrw" name="KeyEvent">
+          <modelElement href="SnakeGameGroup3.uml#_VYAbw11iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a7vKdV1iEeyM3Pja4ukVrw" name="actionPerformed">
+      <modelElement href="SnakeGameGroup3.uml#_VYgLA11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a7vKdl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYgyEV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a7vKd11iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYgyEl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a7vKeF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a7vKeV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a7vKel1iEeyM3Pja4ukVrw" name="e">
+        <modelElement href="SnakeGameGroup3.uml#_VYgyEF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a7vKe11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a7vKfF1iEeyM3Pja4ukVrw" name="ActionEvent">
+          <modelElement href="SnakeGameGroup3.uml#_VX_0sl1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ajdM8F1iEeyM3Pja4ukVrw" name="Apple" generalizations="_al2ZoF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VViWkF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_ajdM8V1iEeyM3Pja4ukVrw" position="1829.0,1469.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ajdM8l1iEeyM3Pja4ukVrw" label="+"/>
+    <operations xmi:id="_ajdM811iEeyM3Pja4ukVrw" name="Apple">
+      <modelElement href="SnakeGameGroup3.uml#_VVi9oF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_ajdM9F1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_ajdM9V1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ajdM9l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ajdM911iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VVi9pV1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_ajd0AF1iEeyM3Pja4ukVrw" name="Apple">
+          <modelElement href="SnakeGameGroup3.uml#_VViWkF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ajd0AV1iEeyM3Pja4ukVrw" name="foodX">
+        <modelElement href="SnakeGameGroup3.uml#_VVi9oV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ajd0Al1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ajd0A11iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ajd0BF1iEeyM3Pja4ukVrw" name="foodY">
+        <modelElement href="SnakeGameGroup3.uml#_VVi9ol1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ajd0BV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ajd0Bl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ajd0B11iEeyM3Pja4ukVrw" name="getImage">
+      <modelElement href="SnakeGameGroup3.uml#_VVjksF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_ajd0CF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ajd0CV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ajd0Cl1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYLa4F1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_ajd0C11iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ajd0DF1iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VVjksV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ajd0DV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ajd0Dl1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ajd0D11iEeyM3Pja4ukVrw" name="giveCond">
+      <modelElement href="SnakeGameGroup3.uml#_VXtg0F1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ajd0EF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VXtg0l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ajd0EV1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VXtg011iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ajd0El1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ajd0E11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ajd0FF1iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VXtg0V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ajd0FV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ajd0Fl1iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ajd0F11iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYMB8F1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_ajd0GF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYMB8l1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ajd0GV1iEeyM3Pja4ukVrw" name="Annotations">
+        <modelElement href="SnakeGameGroup3.uml#_VYMB811iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_ajd0Gl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_ajd0G11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ajd0HF1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYMB8V1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_ajd0HV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_ajd0Hl1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_a3VLMF1iEeyM3Pja4ukVrw" name="SpriteNonBuffered" abstractClass="true" associationsIn="_a2HqQF1iEeyM3Pja4ukVrw" associationsOut="_a3MBQF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VV474F1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_a3VLMV1iEeyM3Pja4ukVrw" position="161.0,1819.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_a3VLMl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_a3VLM11iEeyM3Pja4ukVrw" name="spriteX">
+      <modelElement href="SnakeGameGroup3.uml#_VYu0gF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a3VLNF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYu0gV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a3VLNV1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VYu0gl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a3VLNl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLN11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a3VLOF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a3VLOV1iEeyM3Pja4ukVrw" name="spriteImage">
+      <modelElement href="SnakeGameGroup3.uml#_VYvblF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a3VLOl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYwCoF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a3VLO11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a3VLPF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a3VLPV1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a3VLPl1iEeyM3Pja4ukVrw" name="tick">
+      <modelElement href="SnakeGameGroup3.uml#_VYwCoV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a3VLP11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYwpsF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a3VLQF1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a3VLQV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a3VLQl1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a3VLQ11iEeyM3Pja4ukVrw" defaultValue="0" name="counterTick">
+      <modelElement href="SnakeGameGroup3.uml#_VYwpsV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a3VLRF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYwps11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a3VLRV1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_a3VLRl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a3VLR11iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a3VLSF1iEeyM3Pja4ukVrw" defaultValue="0" name="loop">
+      <modelElement href="SnakeGameGroup3.uml#_VYwptF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a3VLSV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYxQwF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a3VLSl1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a3VLS11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a3VLTF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a3VLTV1iEeyM3Pja4ukVrw" name="spriteY">
+      <modelElement href="SnakeGameGroup3.uml#_VZMukF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a3VLTl1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZMukV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_a3VLT11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZMukl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a3VLUF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLUV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a3VLUl1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_a3VLU11iEeyM3Pja4ukVrw" abstractOperation="true" name="framecounter">
+      <modelElement href="SnakeGameGroup3.uml#_VV5i8F1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLVF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLVV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a3VLVl1iEeyM3Pja4ukVrw" name="getLoop">
+      <modelElement href="SnakeGameGroup3.uml#_VV5i8V1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLV11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLWF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a3VLWV1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VV6KAF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a3VLWl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a3VLW11iEeyM3Pja4ukVrw" name="SpriteNonBuffered">
+      <modelElement href="SnakeGameGroup3.uml#_VV6KAV1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_a3VLXF1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_a3VLXV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLXl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a3VLX11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VV6KB11iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a3VLYF1iEeyM3Pja4ukVrw" name="SpriteNonBuffered">
+          <modelElement href="SnakeGameGroup3.uml#_VV474F1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a3VLYV1iEeyM3Pja4ukVrw" name="tick">
+        <modelElement href="SnakeGameGroup3.uml#_VV6KAl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLYl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLY11iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a3VLZF1iEeyM3Pja4ukVrw" name="spriteX">
+        <modelElement href="SnakeGameGroup3.uml#_VV6KA11iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLZV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLZl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a3VLZ11iEeyM3Pja4ukVrw" name="spriteY">
+        <modelElement href="SnakeGameGroup3.uml#_VV6KBF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLaF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLaV1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a3VLal1iEeyM3Pja4ukVrw" name="getSpriteY">
+      <modelElement href="SnakeGameGroup3.uml#_VV6xEF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLa11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLbF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a3VLbV1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VV6xEV1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a3VLbl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a3VLb11iEeyM3Pja4ukVrw" name="setSpriteY">
+      <modelElement href="SnakeGameGroup3.uml#_VV6xEl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLcF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLcV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a3VLcl1iEeyM3Pja4ukVrw" name="spriteY">
+        <modelElement href="SnakeGameGroup3.uml#_VV6xE11iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLc11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLdF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a3VLdV1iEeyM3Pja4ukVrw" name="getCurrentImage">
+      <modelElement href="SnakeGameGroup3.uml#_VV6xFF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLdl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLd11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a3VLeF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYYPMF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a3VLeV1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a3VLel1iEeyM3Pja4ukVrw" abstractOperation="true" name="giveCond">
+      <modelElement href="SnakeGameGroup3.uml#_VX5uEF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLe11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLfF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a3VLfV1iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VX5uEV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLfl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLf11iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a3VLgF1iEeyM3Pja4ukVrw" name="tick">
+      <modelElement href="SnakeGameGroup3.uml#_VX5uEl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLgV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLgl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a3VLg11iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VX6VIF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLhF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLhV1iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a3VLhl1iEeyM3Pja4ukVrw" abstractOperation="true" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYXoIF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLh11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLiF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a3VLiV1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYXoIV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLil1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLi11iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a3VLjF1iEeyM3Pja4ukVrw" name="setCurrentImage">
+      <modelElement href="SnakeGameGroup3.uml#_VYYPMV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a3VLjV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a3VLjl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a3VLj11iEeyM3Pja4ukVrw" name="spriteImage">
+        <modelElement href="SnakeGameGroup3.uml#_VYYPMl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a3VLkF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a3VLkV1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_a5tJwF1iEeyM3Pja4ukVrw" name="Snake" associationsIn="_a1GWkF1iEeyM3Pja4ukVrw" associationsOut="_a4clgF1iEeyM3Pja4ukVrw _a5ixsF1iEeyM3Pja4ukVrw _a5jYwF1iEeyM3Pja4ukVrw _a5jYwV1iEeyM3Pja4ukVrw _a5jYwl1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_a5tJwV1iEeyM3Pja4ukVrw" position="1304.0,1678.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_a5tJwl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_a5tJw11iEeyM3Pja4ukVrw" defaultValue="850" name="boardRight">
+      <modelElement href="SnakeGameGroup3.uml#_VYxQwV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJxF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYx30V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJxV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tJxl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJx11iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJyF1iEeyM3Pja4ukVrw" defaultValue="25" name="boardLeft">
+      <modelElement href="SnakeGameGroup3.uml#_VYx30l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJyV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYx31F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJyl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tJy11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJzF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJzV1iEeyM3Pja4ukVrw" defaultValue="75" name="boardTop">
+      <modelElement href="SnakeGameGroup3.uml#_VYx31V1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJzl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYye4V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJz11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tJ0F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ0V1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ0l1iEeyM3Pja4ukVrw" defaultValue="625" name="boardBot">
+      <modelElement href="SnakeGameGroup3.uml#_VYye4l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ011iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYye5F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ1F1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tJ1V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ1l1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ111iEeyM3Pja4ukVrw" defaultValue="new ArrayList&lt;>()" name="snakeX">
+      <modelElement href="SnakeGameGroup3.uml#_VYye5V1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ2F1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYzF8V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ2V1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a5tJ2l1iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_a5tJ211iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ3F1iEeyM3Pja4ukVrw" defaultValue="new ArrayList&lt;>()" name="snakeY">
+      <modelElement href="SnakeGameGroup3.uml#_VYzF8l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ3V1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYzF9V1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ3l1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a5tJ311iEeyM3Pja4ukVrw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_a5tJ4F1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ4V1iEeyM3Pja4ukVrw" defaultValue="false" name="left">
+      <modelElement href="SnakeGameGroup3.uml#_VYzF9l1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ4l1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYztAF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ411iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a5tJ5F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ5V1iEeyM3Pja4ukVrw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ5l1iEeyM3Pja4ukVrw" defaultValue="true" name="right">
+      <modelElement href="SnakeGameGroup3.uml#_VYztAV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ511iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYztA11iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ6F1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a5tJ6V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ6l1iEeyM3Pja4ukVrw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ611iEeyM3Pja4ukVrw" defaultValue="false" name="up">
+      <modelElement href="SnakeGameGroup3.uml#_VYztBF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ7F1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYztBl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ7V1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a5tJ7l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ711iEeyM3Pja4ukVrw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ8F1iEeyM3Pja4ukVrw" defaultValue="false" name="down">
+      <modelElement href="SnakeGameGroup3.uml#_VY0UEF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ8V1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY0UEl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ8l1iEeyM3Pja4ukVrw" label="#"/>
+      <cardinality xmi:id="_a5tJ811iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ9F1iEeyM3Pja4ukVrw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ9V1iEeyM3Pja4ukVrw" name="rightMouth">
+      <modelElement href="SnakeGameGroup3.uml#_VY0UE11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ9l1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY0UFF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ911iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tJ-F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ-V1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ-l1iEeyM3Pja4ukVrw" name="leftMouth">
+      <modelElement href="SnakeGameGroup3.uml#_VY0UFV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tJ-11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY07IF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tJ_F1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tJ_V1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tJ_l1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tJ_11iEeyM3Pja4ukVrw" name="upMouth">
+      <modelElement href="SnakeGameGroup3.uml#_VY07IV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tKAF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY07Il1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tKAV1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tKAl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tKA11iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tKBF1iEeyM3Pja4ukVrw" name="downMouth">
+      <modelElement href="SnakeGameGroup3.uml#_VY07I11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tKBV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY1iMF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tKBl1iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tKB11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tKCF1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tKCV1iEeyM3Pja4ukVrw" name="snakeBody">
+      <modelElement href="SnakeGameGroup3.uml#_VY1iMV1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_a5tKCl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VY1iMl1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_a5tKC11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_a5tKDF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tKDV1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tKDl1iEeyM3Pja4ukVrw" defaultValue="3" name="len">
+      <modelElement href="SnakeGameGroup3.uml#_VY1iM11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKD11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKEF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tKEV1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_a5tKEl1iEeyM3Pja4ukVrw" name="hp">
+      <modelElement href="SnakeGameGroup3.uml#_VY1iNV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKE11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKFF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_a5tKFV1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_a5tKFl1iEeyM3Pja4ukVrw" name="Snake">
+      <modelElement href="SnakeGameGroup3.uml#_VV-bcF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_a5tKF11iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_a5tKGF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKGV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a5tKGl1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VV-bdF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a5tKG11iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a5tKHF1iEeyM3Pja4ukVrw" name="HPmodifier">
+        <modelElement href="SnakeGameGroup3.uml#_VV-bcV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tKHV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tKHl1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a5tKH11iEeyM3Pja4ukVrw" name="getImage">
+      <modelElement href="SnakeGameGroup3.uml#_VV_CgF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKIF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKIV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a5tKIl1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYaEYF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a5tKI11iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a5tKJF1iEeyM3Pja4ukVrw" name="loc">
+        <modelElement href="SnakeGameGroup3.uml#_VV_CgV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tKJV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tKJl1iEeyM3Pja4ukVrw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a5tKJ11iEeyM3Pja4ukVrw" name="setDir">
+      <modelElement href="SnakeGameGroup3.uml#_VV_pkF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKKF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKKV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a5tKKl1iEeyM3Pja4ukVrw" name="left">
+        <modelElement href="SnakeGameGroup3.uml#_VV_pkV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tKK11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tKLF1iEeyM3Pja4ukVrw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a5tKLV1iEeyM3Pja4ukVrw" name="right">
+        <modelElement href="SnakeGameGroup3.uml#_VV_pkl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tKLl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tKL11iEeyM3Pja4ukVrw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a5tKMF1iEeyM3Pja4ukVrw" name="up">
+        <modelElement href="SnakeGameGroup3.uml#_VV_pk11iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tKMV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tKMl1iEeyM3Pja4ukVrw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a5tKM11iEeyM3Pja4ukVrw" name="down">
+        <modelElement href="SnakeGameGroup3.uml#_VV_plF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tKNF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tKNV1iEeyM3Pja4ukVrw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a5tKNl1iEeyM3Pja4ukVrw" name="addBody">
+      <modelElement href="SnakeGameGroup3.uml#_VV_plV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKN11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKOF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a5tKOV1iEeyM3Pja4ukVrw" name="delBody">
+      <modelElement href="SnakeGameGroup3.uml#_VWAQoF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKOl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKO11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a5tKPF1iEeyM3Pja4ukVrw" name="headX">
+      <modelElement href="SnakeGameGroup3.uml#_VWAQoV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKPV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKPl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a5tKP11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VWAQol1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a5tKQF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a5tKQV1iEeyM3Pja4ukVrw" name="headY">
+      <modelElement href="SnakeGameGroup3.uml#_VWAQo11iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKQl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKQ11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a5tKRF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VWAQpF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_a5tKRV1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_a5tKRl1iEeyM3Pja4ukVrw" name="move">
+      <modelElement href="SnakeGameGroup3.uml#_VWAQpV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tKR11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tKSF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_a5tw0F1iEeyM3Pja4ukVrw" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYaEYV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_a5tw0V1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_a5tw0l1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a5tw011iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYaEYl1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_a5tw1F1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_a5tw1V1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_am1REF1iEeyM3Pja4ukVrw" name="Food" abstractClass="true" associationsIn="_az-8QF1iEeyM3Pja4ukVrw" associationsOut="_amU6wF1iEeyM3Pja4ukVrw _amrgEF1iEeyM3Pja4ukVrw" subclassedBy="_al2ZoF1iEeyM3Pja4ukVrw _amTFkF1iEeyM3Pja4ukVrw _avPmMF1iEeyM3Pja4ukVrw">
+    <modelElement href="SnakeGameGroup3.uml#_VVmoAF1iEeyM3Pja4ukVrw"/>
+    <visualProperties xmi:id="_am1REV1iEeyM3Pja4ukVrw" position="1962.0,727.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_am1REl1iEeyM3Pja4ukVrw" label="+"/>
+    <attributes xmi:id="_am1RE11iEeyM3Pja4ukVrw" name="foodX">
+      <modelElement href="SnakeGameGroup3.uml#_VYmRol1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_am1RFF1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYm4sF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_am1RFV1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VYm4sV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_am1RFl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am1RF11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_am1RGF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_am1RGV1iEeyM3Pja4ukVrw" name="foodImg">
+      <modelElement href="SnakeGameGroup3.uml#_VYnfw11iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_am1RGl1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYoG0F1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_am1RG11iEeyM3Pja4ukVrw" label="-"/>
+      <cardinality xmi:id="_am14IF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_am14IV1iEeyM3Pja4ukVrw" name="Image">
+        <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_am14Il1iEeyM3Pja4ukVrw" defaultValue="new Music()" name="sfx">
+      <modelElement href="SnakeGameGroup3.uml#_VYoG0V1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_am14I11iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VYoG011iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_am14JF1iEeyM3Pja4ukVrw" label="~"/>
+      <cardinality xmi:id="_am14JV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_am14Jl1iEeyM3Pja4ukVrw" name="Music">
+        <modelElement href="SnakeGameGroup3.uml#_VVxnIF1iEeyM3Pja4ukVrw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_am14J11iEeyM3Pja4ukVrw" name="foodY">
+      <modelElement href="SnakeGameGroup3.uml#_VZJEMF1iEeyM3Pja4ukVrw"/>
+      <stereotypes xmi:id="_am14KF1iEeyM3Pja4ukVrw" name="MultiDeclaration">
+        <modelElement href="SnakeGameGroup3.uml#_VZJrQF1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_am14KV1iEeyM3Pja4ukVrw" name="LegacyStyledElement">
+        <modelElement href="SnakeGameGroup3.uml#_VZJrQV1iEeyM3Pja4ukVrw"/>
+      </stereotypes>
+      <visibility xmi:id="_am14Kl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14K11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <type xmi:id="_am14LF1iEeyM3Pja4ukVrw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_am14LV1iEeyM3Pja4ukVrw" name="Food">
+      <modelElement href="SnakeGameGroup3.uml#_VVn2IF1iEeyM3Pja4ukVrw"/>
+      <keywords xmi:id="_am14Ll1iEeyM3Pja4ukVrw" keyword="create"/>
+      <visibility xmi:id="_am14L11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14MF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_am14MV1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VVn2JV1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_am14Ml1iEeyM3Pja4ukVrw" name="Food">
+          <modelElement href="SnakeGameGroup3.uml#_VVmoAF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_am14M11iEeyM3Pja4ukVrw" name="foodX">
+        <modelElement href="SnakeGameGroup3.uml#_VVn2IV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14NF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14NV1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_am14Nl1iEeyM3Pja4ukVrw" name="foodY">
+        <modelElement href="SnakeGameGroup3.uml#_VVn2Il1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14N11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14OF1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_am14OV1iEeyM3Pja4ukVrw" name="getFoodY">
+      <modelElement href="SnakeGameGroup3.uml#_VVn2Jl1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14Ol1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14O11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_am14PF1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VVn2J11iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_am14PV1iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_am14Pl1iEeyM3Pja4ukVrw" name="setFoodY">
+      <modelElement href="SnakeGameGroup3.uml#_VVn2KF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14P11iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14QF1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_am14QV1iEeyM3Pja4ukVrw" name="foodY">
+        <modelElement href="SnakeGameGroup3.uml#_VVodMF1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14Ql1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14Q11iEeyM3Pja4ukVrw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_am14RF1iEeyM3Pja4ukVrw" name="getImage">
+      <modelElement href="SnakeGameGroup3.uml#_VVodMV1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14RV1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14Rl1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_am14R11iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VYN3Il1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_am14SF1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_am14SV1iEeyM3Pja4ukVrw" abstractOperation="true" name="giveCond">
+      <modelElement href="SnakeGameGroup3.uml#_VXv9EF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14Sl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14S11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_am14TF1iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VXv9EV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14TV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14Tl1iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_am14T11iEeyM3Pja4ukVrw" name="eatenBySnake">
+      <modelElement href="SnakeGameGroup3.uml#_VXv9El1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14UF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14UV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_am14Ul1iEeyM3Pja4ukVrw">
+        <modelElement href="SnakeGameGroup3.uml#_VXv9FF1iEeyM3Pja4ukVrw"/>
+        <type xmi:id="_am14U11iEeyM3Pja4ukVrw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_am14VF1iEeyM3Pja4ukVrw" name="snake">
+        <modelElement href="SnakeGameGroup3.uml#_VXv9E11iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14VV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14Vl1iEeyM3Pja4ukVrw" name="Snake">
+          <modelElement href="SnakeGameGroup3.uml#_VV8mQF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_am14V11iEeyM3Pja4ukVrw" abstractOperation="true" name="render">
+      <modelElement href="SnakeGameGroup3.uml#_VYN3IF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14WF1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14WV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_am14Wl1iEeyM3Pja4ukVrw" name="g">
+        <modelElement href="SnakeGameGroup3.uml#_VYN3IV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14W11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14XF1iEeyM3Pja4ukVrw" name="Graphics">
+          <modelElement href="SnakeGameGroup3.uml#_VXrroF1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_am14XV1iEeyM3Pja4ukVrw" name="setImg">
+      <modelElement href="SnakeGameGroup3.uml#_VYOeMF1iEeyM3Pja4ukVrw"/>
+      <visibility xmi:id="_am14Xl1iEeyM3Pja4ukVrw" label="+"/>
+      <cardinality xmi:id="_am14X11iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_am14YF1iEeyM3Pja4ukVrw" name="foodImg">
+        <modelElement href="SnakeGameGroup3.uml#_VYOeMV1iEeyM3Pja4ukVrw"/>
+        <cardinality xmi:id="_am14YV1iEeyM3Pja4ukVrw" label="1" max="1" min="1"/>
+        <type xmi:id="_am14Yl1iEeyM3Pja4ukVrw" name="Image">
+          <modelElement href="SnakeGameGroup3.uml#_VXs5wV1iEeyM3Pja4ukVrw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
